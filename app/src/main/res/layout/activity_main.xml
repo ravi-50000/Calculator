@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DO SOME CALCULATION:"
+            android:textSize="20sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+        <EditText
+            android:drawableStart="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="number1:"
+            android:inputType="number"
+
+            android:id="@+id/et1"
+            />
+
+        <EditText
+            android:id="@+id/et2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@color/colorPrimaryDark"
+            android:hint="number2:"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/add"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:text="ADD"
+            android:textColor="@color/colorAccent"
+            android:textSize="25dp" />
+        <Button
+            android:id="@+id/sub"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:text="SUB"
+            android:textColor="@color/colorAccent"
+            android:textSize="25dp" />
+        <Button
+            android:id="@+id/div"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:text="DIVISION"
+            android:textColor="@color/colorAccent"
+            android:textSize="25dp" />
+        <Button
+            android:id="@+id/pro"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:text="PRODUCT"
+            android:textColor="@color/colorAccent"
+        android:textSize="25dp" />
+
+<TextView
+        android:layout_marginTop="70sp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:id="@+id/tv1"
+    android:textSize="25dp" />
+
+</LinearLayout>
